@@ -1,7 +1,8 @@
 # FinSearch-Credit-Score-Algorithm
 Objective: We will be creating a model to predict a suitable Credit Score given various features of each borrower.
-**About Dataset
-**The dataset comprises information on 1000 customers, with 84 features derived from their financial transactions and current financial standing. The primary objective is to leverage this dataset for credit risk estimation and predicting potential defaults.
+
+About Dataset:
+The dataset comprises information on 1000 customers, with 84 features derived from their financial transactions and current financial standing. The primary objective is to leverage this dataset for credit risk estimation and predicting potential defaults.
 
 CUST_ID: Unique customer identifier
 Key Target Variables:
@@ -32,7 +33,8 @@ CAT_CREDIT_CARD: 1 if the customer has a credit card; 0 otherwise
 CAT_MORTGAGE: 1 if the customer has a mortgage; 0 otherwise
 CAT_SAVINGS_ACCOUNT: 1 if the customer has a savings account; 0 otherwise
 CAT_DEPENDENTS: 1 if the customer has any dependents; 0 otherwise
-The dataset has been taken from Kaggle for the same. It has many features such as: Income, Savings, Debt
-We will use Random Forest Regressor as it provides accurate results and is a more convenient option
+
+About the model:
+We will use Random Forest Regressor from "sci-kit learn" library of python as it provides accurate results and is a more convenient option.
 GridSearch along with RandomForestRegressor helps increase the accuracy by selecting the best set of parameters.
 
